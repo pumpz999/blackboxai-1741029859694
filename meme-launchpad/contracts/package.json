@@ -1,0 +1,13 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network mainnet"
+  },
+  "dependencies": {
+    "hardhat": "^2.14.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  }
+}
